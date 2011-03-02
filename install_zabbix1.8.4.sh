@@ -1,9 +1,11 @@
 #!/bin/bash
+# manoot ChangeLog:
+# Ver. 0.6.6 Made changes to the version and added some missing dependencies that were never in the original script. 
 
 # ZABBIX INSTALL SCRIPT
 # VER. 0.6.4 - http://blog.brendon.com
 # Copyright (c) 2008-2010 Brendon Baumgartner
-#
+#  
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation; either version 2 of the License, or
