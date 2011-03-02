@@ -22,7 +22,7 @@
 
 # If necessary, edit these for your system
 DBUSER='root'
-DBPASS='#benz123'
+DBPASS=''
 DBHOST='localhost'
 
 ZBX_VER='1.8.4'
