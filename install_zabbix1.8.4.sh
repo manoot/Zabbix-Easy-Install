@@ -90,7 +90,7 @@ if [ ! "`rpm -qa|grep fping`" ]; then
 fi
 
 # dependenices for curl: e2fsprogs-devel zlib-devel libgssapi-devel krb5-devel openssl-devel
-yum -y install gcc mysql-devel curl-devel httpd php php-mysql php-bcmath php-gd net-snmp-devel fping e2fsprogs-devel zlib-devel libgssapi-devel krb5-devel openssl-devel libidn-devel iksemel-devel php-xml php-mbstring
+yum -y install gcc mysql-devel curl-devel httpd php php-mysql php-bcmath php-gd net-snmp-devel fping e2fsprogs-devel zlib-devel libgssapi-devel krb5-devel openssl-devel libidn-devel iksemel-devel php-xml php-mbstring patch make
 RETVAL=$?
 checkReturn $RETVAL "Package install"
 
